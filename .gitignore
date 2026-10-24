@@ -1,0 +1,28 @@
+# 数据与导出文件不入库
+
+# 原始数据集（约 120MB）
+*.csv
+*.zip
+!data/README.md
+
+# Excel
+*.xlsx
+*.xls
+~$*
+
+# 中间导出
+powerbi/export/
+*.pbix.bak
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python（本项目未使用，防止误提交）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
